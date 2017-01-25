@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    name: spring-blog-datasource
+    url: jdbc:mysql://localhost:3306/blog?useSSL=false&useUnicode=yes&characterEncoding=UTF-8
+    schema: blog
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQLDialect
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+
+      show-sql: true
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+  redis:
+    port: 6379
+server:
+  port: 8000
