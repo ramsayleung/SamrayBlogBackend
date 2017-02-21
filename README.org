@@ -1,0 +1,32 @@
+* SamrayBlog
+  SamrayBlog is a clear-design blog system implements with vue.js and spring boot.And this repo
+  is the frontend code of SamrayBlog.Before ,because i am keep looking for a blog 
+  system that is suitable for my workflow,i have try hexo and jekyll,but i am not
+  satisfied  with these blog system.So i decide to write it by myself.springboot is 
+  so popular,and i have learned it for a while,i decide to use it in my project.
+  And this repo just the backend code of my blog,the frontend code is [[https://github.com/samrayleung/SamrayBlogFrontEnd][SamrayBlogFrontend]]
+** Screenshot
+   this is the screenshot of my upcoming blog system,but i have stopped to develop
+   my blog,because,after 2-month development,i have finish almost 70% code.
+   And finaly ,i find the perfectly suitable blog system for me :[[https://github.com/kelvinh/org-page][org-page]]  
+   which is a static site generator based on Emacs and org mode.I am an Emacser.
+   The typical Emacser is who wanna do everything in his/her Emacs,so do i.
+   Thus,i stop my job.But 2-month work still is worth to say something
+   *HomePage*
+   
+   [[./images/blog_demo.png]]
+   *AdminPage*
+   [[./images/blog_admin.png]]
+** Why i use
+   SamrayBlog is powered by other awesome framework or library:
+   
+   + [[http://spring.io/][Spring]] Framework Spring MVC Spring JPA,Spring Secrity
+   + [[https://github.com/brettwooldridge/HikariCP][HIkariCP]] The Best/high-performance jdbc connection pool at last
+   + [[https://github.com/almasaeed2010/AdminLTE][AdminLTE]] Free Preminu Admin control Panel Theme BasedOn Bootstrap 3.x
+   +[[https://www.mysql.com/][ Mysql]] The world's most popular open source database
+   + [[redis.io][Redis]] The world's most popular key-value database
+
+** At the End
+   although i haven't finish coding,but i think it is still worth something.
+   Anyway,that is all
+
